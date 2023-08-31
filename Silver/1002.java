@@ -15,10 +15,10 @@ public class Main{
 			int y2 = xx.nextInt();
 			int r2 = xx.nextInt();
 			
-			System.out.println(tangent_point(x1, y1, r1, x2, y2, r2));
+			System.out.println(hacs(x1, y1, r1, x2, y2, r2));
 		}
     }
-	public static int tangent_point(int x1, int y1, int r1, int x2, int y2, int r2) {
+	public static int hacs(int x1, int y1, int r1, int x2, int y2, int r2) {
 		
 		int re = (int) Math.pow((r2-r1),2);		// double로 하면 오류가 난다
 		int rez = (int) Math.pow((r2+r1),2);
